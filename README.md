@@ -13,4 +13,5 @@ Bu GitHub deposu, benim kişisel portfolyo web sitesinin kodlarını içerir. Bu
 - Yeteneklerim
 - Çalıştığım Alanlar
 - İletişim Formu
+
 Sitenin canlı halini görmek için https://yigitcan-ucar.vercel.app/ adresini ziyaret edebilirsiniz.
