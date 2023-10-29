@@ -6,8 +6,10 @@
   --font-semi: 600;
 
   --hue-color: 224;
+  --hue-color2: 100;
   --first-color: hsl(var(--hue-color), 89%, 60%);
   --second-color: hsl(var(--hue-color), 56%, 12%);
+  --third-color: hsl(var(--hue-color2), 75%, 25%);
 
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
@@ -71,7 +73,7 @@ img {
 .section-title {
   position: relative;
   font-size: var(--h2-font-size);
-  color: var(--first-color);
+  color: var(--third-color);
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-4);
   text-align: center;
@@ -86,7 +88,7 @@ img {
   right: 0;
   margin: auto;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color: var(--third-color);
 }
 
 .section {
@@ -152,7 +154,7 @@ img {
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color: var(--third-color);
 }
 
 .nav__logo {
@@ -172,7 +174,7 @@ img {
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color: var(--third-color);
 }
 
 .show {
@@ -195,7 +197,7 @@ img {
 }
 
 .home__title-color {
-  color: var(--first-color);
+  color: var(--third-color);
 }
 
 .home__social {
@@ -222,7 +224,7 @@ img {
 }
 
 .home__blob {
-  fill: var(--first-color);
+  fill: var(--third-color);
 }
 
 .home__blob-img {
@@ -231,7 +233,7 @@ img {
 
 .button {
   display: inline-block;
-  background-color: var(--first-color);
+  background-color: var(--third-color);
   color: #fff;
   padding: .75rem 2.5rem;
   font-weight: var(--font-semi);
@@ -301,7 +303,7 @@ img {
   position: absolute;
   left: 0;
   bottom: 0;
-  background-color: var(--first-color);
+  background-color: var(--third-color);
   height: .25rem;
   border-radius: .5rem;
   z-index: var(--z-back);
